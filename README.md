@@ -24,7 +24,7 @@ A modern Android application for managing shipping zones and delivery areas, bui
 
 ## 📱 Demo Video
 
-[Demo video will be uploaded here]
+[[Demo video](https://drive.google.com/file/d/1F8v-DFZdZWJs7WV-99y7rxElopfQV5qH/view?usp=sharing)]
 
 ## 👨‍💻 Author
 
