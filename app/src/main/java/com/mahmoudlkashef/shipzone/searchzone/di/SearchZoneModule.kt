@@ -1,4 +1,6 @@
 import com.mahmoudlkashef.shipzone.searchzone.data.api.SearchZoneApi
+import com.mahmoudlkashef.shipzone.searchzone.data.dataSource.SearchZoneRemoteDataSource
+import com.mahmoudlkashef.shipzone.searchzone.data.dataSource.SearchZoneRemoteDataSourceImpl
 import com.mahmoudlkashef.shipzone.searchzone.data.repository.SearchZoneRepositoryImpl
 import com.mahmoudlkashef.shipzone.searchzone.domain.repository.SearchZoneRepository
 import dagger.Binds
@@ -29,4 +31,10 @@ interface SearchZoneBindsModule {
     fun bindSearchZoneRepository(
         impl: SearchZoneRepositoryImpl
     ): SearchZoneRepository
+
+    @Binds
+    @Singleton
+    fun bindSearchZoneRemoteDataSource(
+        impl: SearchZoneRemoteDataSourceImpl
+    ): SearchZoneRemoteDataSource
 }
