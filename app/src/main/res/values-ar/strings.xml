@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShipZone</string>
+    <string name="choose_delivery_area">اختر منطقة التوصيل</string>
+    <string name="city_area">المدينة/المنطقة</string>
+    <string name="uncovered">غير مغطى</string>
+    <string name="change_app_language">تغيير لغة التطبيق</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+</resources> 

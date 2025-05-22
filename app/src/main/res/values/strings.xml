@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShipZone</string>
+    <string name="choose_delivery_area">Choose the delivery area</string>
+    <string name="city_area">City/Area</string>
+    <string name="uncovered">Uncovered</string>
+    <string name="change_app_language">Change App Language</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+</resources>
